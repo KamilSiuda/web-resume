@@ -17,8 +17,8 @@ const ExperiencePageContent = () => {
     return <><Typography variant='h4' fontWeight='bold' textAlign='center'>My proffesional experience</Typography>
         <Stack direction='row' justifyContent='center' alignItems={{ xs: 'flex-start', md: 'center' }} spacing={6} paddingTop={2}>
             <Zoom in={true}><NumericChip value={5} endAdornment='+' title='Years of experience' /></Zoom>
-            <Zoom in={true}><NumericChip value={28} title='Years old' /></Zoom>
-            <Zoom in={true}><NumericChip value={7} endAdornment='+' title={'Projects I\'ve worked on'} /></Zoom>
+            <Zoom in={true}><NumericChip value={29} title='Years old' /></Zoom>
+            <Zoom in={true}><NumericChip value={5} endAdornment='+' title={'Projects I\'ve worked on'} /></Zoom>
         </Stack>
         {isError && <ErrorView title='Ooops! Something went wrong' message='An error occurred while fetching data from server. Please try again in a while, if error remains please contact the administrator!' />}
         <List sx={{ paddingTop: 4 }}>

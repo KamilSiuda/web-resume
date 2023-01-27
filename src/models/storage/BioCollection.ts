@@ -4,6 +4,4 @@ export type BioCollection = {
     email: string;
     github: string;
     avatar: string;
-    profficiency: Array<string>;
-    skills: Array<string>;
 };
